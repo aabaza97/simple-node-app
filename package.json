@@ -1,0 +1,25 @@
+{
+  "name": "simple-node-app",
+  "version": "1.0.0",
+  "description": "simple node app",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --detectOpenHandles"
+  },
+  "repository": {
+    "type": "git",
+    "url": "simple-node-app"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "redis",
+    "sequelize",
+    "api"
+  ],
+  "author": "A. Abaza",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
