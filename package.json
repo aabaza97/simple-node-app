@@ -1,25 +1,33 @@
 {
-  "name": "simple-node-app",
-  "version": "1.0.0",
-  "description": "simple node app",
-  "main": "index.js",
-  "scripts": {
-    "test": "jest --detectOpenHandles"
-  },
-  "repository": {
-    "type": "git",
-    "url": "simple-node-app"
-  },
-  "keywords": [
-    "nodejs",
-    "express",
-    "redis",
-    "sequelize",
-    "api"
-  ],
-  "author": "A. Abaza",
-  "license": "MIT",
-  "dependencies": {
-    "express": "^4.18.2"
-  }
+	"name": "simple-node-app",
+	"version": "1.0.0",
+	"description": "simple node app",
+	"main": "index.js",
+	"scripts": {
+		"start": "node index.js",
+		"test": "jest --detectOpenHandles",
+		"dev": "nodemon index"
+	},
+	"repository": {
+		"type": "git",
+		"url": "simple-node-app"
+	},
+	"keywords": [
+		"nodejs",
+		"express",
+		"redis",
+		"sequelize",
+		"api"
+	],
+	"author": "A. Abaza",
+	"license": "MIT",
+	"dependencies": {
+		"dotenv": "^16.0.3",
+		"express": "^4.18.2"
+	},
+	"devDependencies": {
+		"eslint": "^8.26.0",
+		"jest": "^29.2.2",
+		"nodemon": "^2.0.20"
+	}
 }
